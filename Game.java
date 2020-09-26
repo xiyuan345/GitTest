@@ -7,7 +7,7 @@ public class Game {
 	}
 
 	public int score() {
-		int score = 20;
+		int score = 0;
 		int frameIndex = 0;
 		for (int frame = 0; frame < 10; frame++) {
 			if (isStrike(frameIndex)) {
